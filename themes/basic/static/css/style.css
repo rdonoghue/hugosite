@@ -55,6 +55,41 @@ nav li a {
   text-decoration: none;
   color: #333;
 }
+
+.project-container {
+  display: grid;
+  grid-template-columns: 10rem auto;
+}
+
+.project-list {
+  padding: 0.25rem;
+  margin: 0;
+  border-right: 2px solid black;
+  background-image: linear-gradient(lightgray 0.1rem, transparent 0.1rem),
+    linear-gradient(90deg, lightgray 0.1rem, transparent 0.1rem);
+  background-size: 2rem 2rem;
+}
+.project-list ul {
+  padding: 0.25rem;
+}
+
+.project-list li {
+  list-style-type: none;
+  padding: 0.25rem 0.25rem;
+  margin: 0;
+}
+.project-list a {
+  text-decoration: none;
+}
+
+.project-list li:hover {
+  background-color: whitesmoke;
+}
+
+.project {
+  padding: 0.5rem;
+}
+
 @media only screen and (min-width: 768px) {
   nav {
     flex-direction: row;
