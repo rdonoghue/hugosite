@@ -1,0 +1,38 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+nav {
+  font-family: "Fjalla One", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+nav,
+footer {
+  background-color: #333;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+nav > a {
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+@media only screen and (min-width: 768px) {
+  nav {
+    flex-direction: row;
+  }
+}
