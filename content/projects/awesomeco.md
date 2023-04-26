@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Awesomeco"
 date: 2023-04-25T18:35:37-04:00
 draft: false
 ---
